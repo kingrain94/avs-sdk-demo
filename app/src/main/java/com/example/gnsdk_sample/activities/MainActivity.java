@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Find the button with the login_with_amazon ID
         // and set up a click handler
-        mLoginButton = (Button) findViewById(R.id.login_with_amazon);
+        mLoginButton = findViewById(R.id.login_with_amazon);
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
