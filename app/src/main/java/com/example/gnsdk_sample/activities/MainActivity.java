@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                             .build());
                 } catch (JSONException e) {
                     // handle exception here
+                    e.printStackTrace();
                 }
             }
         });
